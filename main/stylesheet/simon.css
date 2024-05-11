@@ -1,5 +1,6 @@
 body {
     text-align: center;
+    min-width: fit-content;
 }
 
 .title {
