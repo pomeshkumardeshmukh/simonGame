@@ -1,0 +1,58 @@
+body {
+    text-align: center;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 35px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.level {
+    font-weight: bold;
+    font-size: 25px;
+    margin: 15px;
+}
+
+.tiles {
+    height: 550px;
+    width: 550px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 0;
+}
+
+.btn {
+    border: 5px solid black;
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 5px solid #000;
+    margin: 2.5rem;
+}
+
+.pink {
+    background-color: #d95980;
+}
+
+.yellow {
+    background-color: #f99b45;
+}
+
+.green {
+    background-color: #63aac0;
+}
+
+.purple {
+    background-color: #819ff9;
+}
+
+.flash {
+    background-color: white;
+  }
+  
+  .userflash {
+    background-color: green;
+  }

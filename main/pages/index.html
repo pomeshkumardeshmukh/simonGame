@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Game</title>
+    <link rel="stylesheet" href="../stylesheet/main.css">
+    <link rel="stylesheet" href="../stylesheet/simon.css">
+</head>
+<body>
+    <div class="main">
+        <div class="title"><label for="">Simon Says Game</label></div>
+        <div class="level">Press any key to start the game</div>
+        <div class="tiles">
+            <div class="line-one">
+                <div id="0" class="btn pink" onclick="userFlash(0)"></div>
+                <div id="1" class="btn yellow" onclick="userFlash(1)"></div>
+            </div>
+            <div class="line-two">
+                <div id="2" class="btn green" onclick="userFlash(2)"></div>
+                <div id="3" class="btn purple" onclick="userFlash(3)"></div>
+            </div>
+        </div>
+    </div>  
+    <script src="../scripts/jquery.min.js_3.7.1.js"></script> 
+    <script src="../scripts/simon.js"></script>  
+</body>
+</html>
